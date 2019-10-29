@@ -6,7 +6,7 @@ Parameters:
   InstanceType:
     Description: Type of EC2 instance to launch for the server. Only Compute type nodes are currently specified.
     Type: String
-    Default: t2.medium
+    Default: t2.micro
     ConstraintDescription: Must be a valid EC2 instance type
     AllowedValues:
       - t2.nano
